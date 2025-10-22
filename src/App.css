@@ -39,7 +39,7 @@ body{
   border: none;
   outline: none;
   text-align: start;
-  font-size: 1em;
+  font-size: 3em;
   color: var(--third-color);
   font-weight: bolder;
   display: flex;
