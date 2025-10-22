@@ -63,7 +63,7 @@ body{
   box-shadow: 0 0 1px var(--third-color);
 }
 .InputCont{
-  width: fit-content;
+  width: 80%;
   height: fit-content;
   padding: 10px ;
   display: grid;
@@ -82,7 +82,7 @@ body{
   height: fit-content;
   border-radius: 7px;
   border: none;
-  padding: 8px 30px;
+  padding: 8px 35px;
   background-color: var(--first-color);
   color: rgb(25, 25, 255);
   font-weight: bolder;
