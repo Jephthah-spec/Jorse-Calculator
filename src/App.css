@@ -34,7 +34,7 @@ body{
 .Input{
   width: 100%;
   height: 100%;
-  padding: 5px 10px -100px 10px;
+  padding: 5px 10px 100px 10px;
   background-color: transparent;
   border: none;
   outline: none;
@@ -63,7 +63,7 @@ body{
   box-shadow: 0 0 1px var(--third-color);
 }
 .InputCont{
-  width: 80%;
+  width: 100%;
   height: fit-content;
   padding: 10px ;
   display: grid;
@@ -86,7 +86,7 @@ body{
   background-color: var(--first-color);
   color: rgb(25, 25, 255);
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 1.5em;
   cursor: pointer;
   transition: transform 0.3s linear;
 }
@@ -95,7 +95,7 @@ body{
 }
 .Clear{
   position: absolute;
-  bottom: 37%;
+  bottom: 5px;
   right: 10px;
   width: fit-content;
   height: fit-content;
@@ -103,5 +103,6 @@ body{
   border: none;
   background-color: var(--second-color);
   box-shadow: 0 0 5px var(--third-color);
-  padding: 10px 20px;
+  padding: 6px 15px;
+  cursor: pointer;
 }
