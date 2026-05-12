@@ -19,7 +19,7 @@ export function Calculator() {
         }
         try {
             setInput(eval(input))
-            localStorage.setItem("history", input)
+            localStorage.setItem("history", `${input} = ${eval(input)}`)
             
         } catch (error) {
             setInput(error)
@@ -33,13 +33,7 @@ export function Calculator() {
         <div className="Calculator">
             <div className="OutputCont">
 
-                <div className="Output" onClick={()=>{
-                    setInput("");
-                    showInput(result)
-                    if (!result) {
-                        showInput("History Cleared")
-                    }
-                }}>
+                <div className="Output">
                  {result} 
                 </div>
                 <button className="Clear" onClick={
